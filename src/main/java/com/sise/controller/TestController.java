@@ -17,6 +17,7 @@ public class TestController {
 
     @RequestMapping("testController")
     public void testController() {
+        System.out.println("controller");
         testService.testService();
     }
 }
